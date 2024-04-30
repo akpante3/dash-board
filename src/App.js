@@ -1,7 +1,7 @@
 import { useState } from "react";
 // import { Routes, Route } from "react-router-dom";
 import Topbar from "./scenes/global/Topbar";
-// import Sidebar from "./scenes/global/Sidebar";
+import Sidebar from "./scenes/global/Sidebar";
 // import Dashboard from "./scenes/dashboard";
 // import Team from "./scenes/team";
 // import Invoices from "./scenes/invoices";
@@ -26,7 +26,7 @@ function App() {
         {/* reset css to default */}
         <CssBaseline />
         <div className="app">
-          {/* <Sidebar isSidebar={isSidebar} /> */}
+          <Sidebar isSidebar={isSidebar} />
           <main className="content">
              <Topbar setIsSidebar={setIsSidebar} />
             {/*<Routes>
